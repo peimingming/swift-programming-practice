@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>en</key>
+	<dict>
+		<key>other</key>
+		<string>failed.</string>
+	</dict>
+	<key>zh</key>
+	<dict>
+		<key>other</key>
+		<string>请求失败。</string>
+	</dict>
+	<key>zh_HK</key>
+	<dict>
+		<key>other</key>
+		<string>請求失敗。</string>
+	</dict>
+</dict>
+</plist>
