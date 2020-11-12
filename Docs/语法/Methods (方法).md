@@ -119,3 +119,29 @@ point.moveBy(2, 2)
 print(point) // Point(x: 3, y: 4)
 ```
 
+
+
+## 将方法赋值给一个变量或者常量
+
+可以像函数那样，将方法赋值给一个变量或者常量。
+
+这里实例方法和类型方法有点不同，示例如下：
+
+```swift
+struct Person {
+    func run() {
+        print("method run.")
+    }
+    
+    static func run() {
+        print("static method run.")
+    }
+}
+
+let method1: (Person) -> () -> () = Person.run
+method1(Person())() // method run.
+
+let method2: () -> () = Person.run
+method2() // static method run.
+```
+
