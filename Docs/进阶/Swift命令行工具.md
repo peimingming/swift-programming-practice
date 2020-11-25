@@ -60,7 +60,7 @@
    Successfully!!! filtered file: ErrorCodes-zh_Hant-Filtered.strings, count: 1
    Successfully!!! filtered file: ErrorCodes-zh_Hans-Filtered.strings, count: 1
    Successfully!!! filtered file: ErrorCodes-Filtered.plist, count: 1
-   xxx:swift-cmd-tool d3883365$
+   xxx:swift-cmd-tool xxx$
    ```
 
 3. 还有一种脱离Swift的实践，比如本地并没有装Xcode，那就需要使用swiftc将写好的工具源码编译成可执行的文件，不过这个就要求写一个最上层的main.swift了。

@@ -280,6 +280,29 @@ xiaoming.introduceFriends()
 
 Person在交朋友的时候，他只会在需要的时候再向外界介绍他的朋友们。
 
+另外，逃逸闭包不能捕获inout变量：
+
+下边的代码会报错：
+
+❌：**error: escaping closure captures 'inout' parameter 'value'**
+
+(*因为，无法确定逃逸闭包何时被执行，有可能被捕获的变量已经不存在了，逃逸闭包还引用着inout变量，所以编译器直接就认为这种操作不合法。*)
+
+```swift
+var value: Int = 10
+
+func test(value: inout Int) -> (() -> Void) {
+    let plus = {
+        value += 1
+    }
+    return plus
+}
+
+test(value: &value)
+```
+
+更多关于闭包产生的内存安全问题，请查看 **内存安全** 章节。
+
 
 
 ## 自动闭包 (Autoclosures)
