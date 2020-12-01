@@ -27,6 +27,8 @@
 18. [Extensions (扩展)](Docs/语法/Extensions%20(扩展).md)
 19. [Access Control (访问控制)](Docs/语法/Access%20Control%20(访问控制).md)
 20. [Memory Safety (内存安全)](Docs/语法/Memory%20Safety%20(内存安全).md)
+21. [Literals (字面量)](Docs/语法/Literals%20(字面量).md)
+22. [Patterns (模式匹配)](Docs/语法/Patterns%20(模式匹配).md)
 
 
 
