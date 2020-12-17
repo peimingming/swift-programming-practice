@@ -52,7 +52,7 @@ public func printLog(_ items: Any...,
                      separator: String = " ",
                      terminator: String = "\n") {
     #if DEBUG
-    let verbosePrefix = "[\((file as NSString).lastPathComponent)][\(method)][\(line)]:"
+    let verbosePrefix = "[\((file as NSString).lastPathComponent)][\(method)][\(line)]: "
     guard items.count != 0 else {
         print(verbosePrefix, terminator: terminator)
         return

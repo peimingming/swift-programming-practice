@@ -28,5 +28,19 @@ extension ViewController {
         ocVendor.sayHowdy()
         ocVendor.sayMorning()
         ocVendor.saySwiftVendorWords()
+        
+        printLog("\n--- [Host] Import C into Swift ---")
+        let a: Int32 = 10
+        let b: Int32 = 20
+        let result = swiftSum(a, b)
+        printLog(result)
     }
+}
+
+// Rename the C function "sum" defined in the file CVendor.c as "swiftSum".
+@_silgen_name("sum") func swiftSum(_ v1: Int32, _ v2: Int32) -> Int32
+
+func sum(_ v1: Int32, _ v2: Int32) -> Int32 {
+    printLog("sum defined in Swift.")
+    return v1 + v2
 }

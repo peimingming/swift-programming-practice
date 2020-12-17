@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A32CA0A62578DAA500D794EB /* CVendor.c in Sources */ = {isa = PBXBuildFile; fileRef = A32CA0A52578DAA500D794EB /* CVendor.c */; };
 		A7A9913E24EA2C8F0004B4DC /* Etiquette.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A9913C24EA2C8F0004B4DC /* Etiquette.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7A9914524EA2CB70004B4DC /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9914424EA2CB70004B4DC /* Greeting.swift */; };
 		A7A9914D24EA2D030004B4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9914C24EA2D030004B4DC /* AppDelegate.swift */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A32CA0A42578DAA500D794EB /* CVendor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVendor.h; sourceTree = "<group>"; };
+		A32CA0A52578DAA500D794EB /* CVendor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CVendor.c; sourceTree = "<group>"; };
 		A7A9913924EA2C8F0004B4DC /* Etiquette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Etiquette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A9913C24EA2C8F0004B4DC /* Etiquette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Etiquette.h; sourceTree = "<group>"; };
 		A7A9913D24EA2C8F0004B4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A32CA0A72578DAAC00D794EB /* CVendor */ = {
+			isa = PBXGroup;
+			children = (
+				A32CA0A42578DAA500D794EB /* CVendor.h */,
+				A32CA0A52578DAA500D794EB /* CVendor.c */,
+			);
+			path = CVendor;
+			sourceTree = "<group>";
+		};
 		A7A9912F24EA2C8F0004B4DC = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +111,7 @@
 			children = (
 				A7A9918024EA65800004B4DC /* SwiftVendor */,
 				A7A9916224EA32320004B4DC /* OCVendor */,
+				A32CA0A72578DAAC00D794EB /* CVendor */,
 				A7A9916324EA33330004B4DC /* Supporting Files */,
 			);
 			path = EtiquetteHost;
@@ -290,6 +303,7 @@
 				A7A9914D24EA2D030004B4DC /* AppDelegate.swift in Sources */,
 				A7A9916824EA34C40004B4DC /* Log.swift in Sources */,
 				A7A9916124EA32280004B4DC /* OCVendor.m in Sources */,
+				A32CA0A62578DAA500D794EB /* CVendor.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
