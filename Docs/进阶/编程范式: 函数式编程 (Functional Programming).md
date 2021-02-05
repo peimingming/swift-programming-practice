@@ -11,6 +11,8 @@
 - [Functors, Applicatives, and Monads in Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
 - [Swift Functors, Applicatives, and Monads in Pictures](https://mokacoding.com/blog/functor-applicative-monads-in-pictures/)
 
+> 参考资料的本地Archive文件，请查看[文件夹](../../Source/FunctionalProgramming)，并直接点击打开内部文件即可进行阅读
+
 
 
 ## 本章的示例代码
