@@ -157,7 +157,7 @@ repeat {
 
 **开/闭区间**
 
-闭区间: a...b 表示 a <= 取值 < b, 对应的类型是: ClosedRange<Bound>
+闭区间: a...b 表示 a <= 取值 <= b, 对应的类型是: ClosedRange<Bound>
 
 开区间: a..<b 表示 a <= 取值 < b, 对应的类型是: Range<Bound>
 
